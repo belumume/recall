@@ -1,0 +1,133 @@
+# Example cards. Each card:
+#   id:    short, lowercase-with-dashes, never renamed once reviewed
+#   deck:  one of deck_names in settings.yml
+#   q:     the question (or a list of wordings, asked in turn)
+#   a:     the answer (Markdown; an <svg> picture is fine)
+#   why:   optional, more detail shown under the answer
+#   src:   optional, where it came from
+#   suspended: true   stops a card from being shown
+
+- id: mem-spacing
+  deck: memory
+  q:
+    - Why review a fact over several days instead of many times in one sitting?
+    - Ten reviews in one evening, or the same ten spread over a month. Which is remembered longer, and why?
+  a: |
+    **Spacing.** Reviews spread out over days are remembered far longer than the same number
+    crammed together, because each review comes when the memory has started to fade.
+  src: Cepeda et al. 2006, a review of 254 studies
+
+- id: mem-testing
+  deck: memory
+  q: What helps memory more, re-reading or trying to recall without looking?
+  a: |
+    **Trying to recall** (retrieval practice). Pulling an answer out of memory strengthens it more
+    than reading it again, even when the attempt fails and you then check the answer.
+  src: Roediger and Karpicke 2006
+
+- id: mem-forgetting-curve
+  deck: memory
+  q: What does a forgetting curve show?
+  a: |
+    How the chance of remembering something falls over time since you last reviewed it:
+    fast at first, then more slowly. Each good review makes the curve flatter.
+  why: |
+    <svg viewBox="0 0 200 90" width="200" height="90" role="img" aria-label="A curve falling fast, then slowly">
+      <path d="M10 10 C 40 60, 80 75, 190 80" fill="none" stroke="currentColor" stroke-width="2"/>
+      <text x="150" y="70" font-size="10" fill="currentColor">time →</text>
+    </svg>
+
+- id: mem-desirable-difficulty
+  deck: memory
+  q: Why can a review that feels hard be better than one that feels easy?
+  a: |
+    Effortful recall strengthens memory more. A card shown just before you would forget it takes
+    effort to answer, and that effort is what makes the next gap longer.
+  src: Bjork, "desirable difficulties"
+
+- id: mem-interleaving
+  deck: memory
+  q: What is interleaving, and when does it help?
+  a: |
+    Mixing different kinds of problem in one session instead of doing one kind in a block.
+    It helps you learn to tell similar kinds apart and pick the right method.
+
+- id: mem-grade-again
+  deck: memory
+  q: When should you grade a card "forgot"?
+  a: When your answer was wrong or missing the key idea, even if it felt close.
+
+- id: mem-grade-hard
+  deck: memory
+  q: When should you grade a card "shaky" rather than "got it"?
+  a: When your answer was right but slow, unsure or needed a hint.
+
+- id: bio-mitochondria
+  deck: bio
+  q: What is the main job of mitochondria?
+  a: Releasing energy from food as ATP, the cell's energy currency (cellular respiration).
+
+- id: bio-osmosis
+  deck: bio
+  q: What is osmosis?
+  a: |
+    The movement of **water** across a partly permeable membrane, from where water is more
+    concentrated (a dilute solution) to where it is less concentrated.
+
+- id: bio-enzyme
+  deck: bio
+  q: Why does an enzyme stop working when it is heated too much?
+  a: Its shape changes (it is **denatured**), so its active site no longer fits the substrate.
+
+- id: bio-dna-bases
+  deck: bio
+  q: Which DNA bases pair with each other?
+  a: A with T, and C with G.
+
+- id: bio-photosynthesis
+  deck: bio
+  q: Write the word equation for photosynthesis.
+  a: carbon dioxide + water → glucose + oxygen (using light energy)
+
+- id: bio-diffusion
+  deck: bio
+  q: How does diffusion differ from active transport?
+  a: |
+    Diffusion moves particles from high to low concentration and needs no energy.
+    Active transport moves them from low to high concentration and uses energy (ATP).
+
+- id: geo-longest-river
+  deck: geo
+  q: Which river is usually counted as the longest in the world?
+  a: The Nile (about 6,650 km), though some measurements put the Amazon ahead.
+
+- id: geo-largest-desert
+  deck: geo
+  q: Which is the largest hot desert?
+  a: The Sahara.
+
+- id: geo-tectonic
+  deck: geo
+  q: What happens at a constructive plate boundary?
+  a: Two plates move apart and magma rises to form new crust, as along the Mid-Atlantic Ridge.
+
+- id: geo-capital-canada
+  deck: geo
+  q: What is the capital of Canada?
+  a: Ottawa.
+
+- id: geo-capital-australia
+  deck: geo
+  q: What is the capital of Australia?
+  a: Canberra.
+
+- id: geo-equator
+  deck: geo
+  q: Name two countries the Equator passes through.
+  a: For example Ecuador, Kenya, Indonesia, Brazil, Uganda or Gabon.
+
+- id: geo-suspended-example
+  deck: geo
+  q: This card is suspended, so it is never shown.
+  a: Suspended cards keep their history.
+  suspended: true
