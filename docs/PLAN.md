@@ -112,7 +112,8 @@ to the first question, answers by voice, grades by one tap or one spoken word.
   is replayed as if sent now, because the record dates it by when its comment arrives; one issue
   that refuses comments does not hold back the others; grades for a deleted issue are dropped,
   but only after checking that the repo is visible and its issues are on, so a token that has lost
-  access keeps its grades queued.
+  access keeps its grades queued. A locked issue keeps its grades queued too (the owner can still
+  comment on it).
 - Still open in `store.js`: if the app closes after a comment is posted but before the queue is
   saved, the grade is posted twice (harmless the same day, a second review after midnight); the app
   and the morning run could open the same day's issue at the same moment. Fix both before the app
