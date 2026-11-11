@@ -1,0 +1,4379 @@
+[
+{
+"text": "1 good, 2 again, 3-5 hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 1,
+"3": 2,
+"4": 2,
+"5": 2
+}
+},
+{
+"text": "all good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "one good two wrong rest easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 1,
+"3": 4,
+"4": 4,
+"5": 4,
+"6": 4
+}
+},
+{
+"text": "1st good 2nd okay",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3
+}
+},
+{
+"text": "Q3 failed, q4: easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1,
+"4": 4
+}
+},
+{
+"text": "number 2 is shaky",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 2
+}
+},
+{
+"text": "1 to 3 good and 4 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 1
+}
+},
+{
+"text": "everything perfect",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4,
+"5": 4,
+"6": 4
+}
+},
+{
+"text": "2 and 4 forgot, others right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1,
+"4": 1,
+"1": 3,
+"3": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "1 good 1 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "nothing here",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "**1** good, `2` easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 4
+}
+},
+{
+"text": "3 - 5 correct",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3,
+"4": 3,
+"5": 3
+}
+},
+{
+"text": "six missed",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"6": 1
+}
+},
+{
+"text": "the rest unsure",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "1, 2 & 3 partly",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2
+}
+},
+{
+"text": "\u0661 good \u0662 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 1
+}
+},
+{
+"text": "\u06f3-\u06f5 easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 4,
+"4": 4,
+"5": 4
+}
+},
+{
+"text": "\u0967 hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2
+}
+},
+{
+"text": "wrong three , again hard 5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "two 6",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "again hard 1 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "all hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "1 again 6 easy all , , 6 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"6": 1
+}
+},
+{
+"text": "again all again 5 wrong to 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "5 easy 6",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 4
+}
+},
+{
+"text": "5 q right easy 6",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 3
+}
+},
+{
+"text": "two easy 5 number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 4
+}
+},
+{
+"text": "6 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"6": 1
+}
+},
+{
+"text": "3 q 5 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2 6 2 two to all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "number ok all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "6 to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "3 one is 2 to - hard easy 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "right ok one wrong 3 1 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "ok 5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "one number two - 3 6",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "hard hard and 3 number q hard again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 2
+}
+},
+{
+"text": ", 6 q 2 to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q two good 2 two right -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "3 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "ok to wrong is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three three 3 hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 2
+}
+},
+{
+"text": "2 three 5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "wrong 1 5 and number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "two q three all wrong hard right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "all q all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and to good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "1 5 two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "wrong number 4 - , q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three three three three easy 3 , three again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "hard rest 2 right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "one -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "6",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "5 easy two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 4
+}
+},
+{
+"text": "hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "- three wrong ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "two - two 3 easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 4
+}
+},
+{
+"text": "3 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "3 to hard wrong easy is one is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "3 number right 4 good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3,
+"4": 3
+}
+},
+{
+"text": "4 two wrong number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1
+}
+},
+{
+"text": "good ok 4 to , hard number and 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "right two ok all 5 5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "one , all - shaky shaky ok rest shaky",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "three is shaky all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 2
+}
+},
+{
+"text": "4 3 two is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "3 and rest number -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2 shaky is two two hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 2
+}
+},
+{
+"text": "easy all 3 rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "rest 3 - - good 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "shaky , hard q easy three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "3 right 1 shaky",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3,
+"1": 2
+}
+},
+{
+"text": "hard shaky is three 2 three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "is right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "wrong good wrong",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "shaky , wrong - - 3 q two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "5 5 wrong",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 1
+}
+},
+{
+"text": "good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "4 is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "1 rest rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "to 4 all ok",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "and 5 1 wrong again is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "2 q 6 4 1 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "5 wrong 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 1
+}
+},
+{
+"text": "good 2 ok right - good ok shaky wrong",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "wrong 3 -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "5 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 1
+}
+},
+{
+"text": "q 4 4 5 3 shaky",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 2
+}
+},
+{
+"text": "5 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 1
+}
+},
+{
+"text": "rest and again ok",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "4 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "good ok hard 2 one - 4 - 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "number and 2 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "shaky 3 4 all number 4 and 5 rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "wrong 1 easy three 2 one hard q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2
+}
+},
+{
+"text": "1 hard rest q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2
+}
+},
+{
+"text": "shaky easy ok wrong number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "wrong and wrong 2 all is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q all right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "4 three one 1 rest two one",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "is two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "one",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2 2 number good three one 4 - to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "hard easy shaky all easy hard and and again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4,
+"5": 4,
+"6": 4
+}
+},
+{
+"text": "and ok wrong",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q and three wrong 5 4 6",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "number one hard and again shaky number right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2
+}
+},
+{
+"text": "hard and good , hard shaky and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "- all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "good one 5 1 and - wrong again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "number all easy right and again right rest to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4,
+"5": 4,
+"6": 4
+}
+},
+{
+"text": "4 ok rest to 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 3
+}
+},
+{
+"text": "q right and two shaky good and again good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 2
+}
+},
+{
+"text": "is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "5 rest 4 3 all 2 easy q ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 4
+}
+},
+{
+"text": "q 3 5 three 4 to number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "all one rest number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three two again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1
+}
+},
+{
+"text": "good hard ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "1 right again hard q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3
+}
+},
+{
+"text": "4 q to - all number to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "right and 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "one 5 one all again to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "two right good one",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "hard 3 and 4 , rest all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "ok good hard and hard wrong three 6 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"6": 1
+}
+},
+{
+"text": "good to to , all hard 6",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "ok wrong q number shaky - three ok one",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3
+}
+},
+{
+"text": "wrong to is - , wrong again number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": ", 1 is number shaky 4 wrong 4 ok",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"4": 3
+}
+},
+{
+"text": "6 shaky good q 6 shaky number q number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"6": 2
+}
+},
+{
+"text": "hard good again wrong",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "easy three 2 5 again ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 1
+}
+},
+{
+"text": ",",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q all 3 and good 2 shaky hard is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 2
+}
+},
+{
+"text": "5 hard q 4 hard is is 3 and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 2,
+"4": 2
+}
+},
+{
+"text": "and all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "all is , 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three hard 3 q to ok again -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 2
+}
+},
+{
+"text": "hard - wrong one",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": ", is number to -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "good 3 again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "and q easy number rest q 3 to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "to 2 2 2 ok easy 5 rest to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "3 good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3
+}
+},
+{
+"text": "2 hard 4 2 and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 2
+}
+},
+{
+"text": "rest rest hard 6 hard wrong is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "and two wrong - , 4 and easy number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1
+}
+},
+{
+"text": "all 3 3 three good right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3
+}
+},
+{
+"text": "3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three to is wrong 1 two three one",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "one good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3
+}
+},
+{
+"text": "ok one three easy rest number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 4
+}
+},
+{
+"text": "is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and two hard three three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 2
+}
+},
+{
+"text": "two 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "again and easy again q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": ", wrong all and 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "one rest ok two shaky 1 good shaky ok",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 2,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "5 5 rest is hard again is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "2 - ok wrong , to 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "right 3 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "to to and is is ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three , all to 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q three easy right , right hard rest 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 4
+}
+},
+{
+"text": "5 all 2 one ok 2 1 wrong",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "rest all hard right one 5 hard one all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "and shaky 6 rest good is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "three 1 is 4 rest three and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "ok again 3 and 6 two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q 4 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "hard and all three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": ", 2 1 to good wrong again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "number ok shaky 3 6 3 good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3
+}
+},
+{
+"text": "three 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2 all shaky easy all wrong wrong 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "is number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "hard 5 ok again good shaky wrong all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 3
+}
+},
+{
+"text": ",",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "wrong , and 4 ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "number ok easy easy hard to 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three and all shaky",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "to 2 and one , all 3 4 all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "all good 1 number , to again good rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "q , 1 hard and all q 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2
+}
+},
+{
+"text": "all 3 again number one number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "two q three rest good shaky to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "hard rest 3 rest to ok rest all 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and ok to easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "- right all 3 1 q again -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "three again rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "-",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "1 again number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2 number one is easy hard right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4
+}
+},
+{
+"text": "rest right , 4 is 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "two one 2 right easy good hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "hard two 1 easy 5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4
+}
+},
+{
+"text": "three two ok to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "hard again number 3 rest two 5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "rest one two is 3 good , 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3
+}
+},
+{
+"text": "shaky , ok three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "shaky again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "rest is hard - one",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2,
+"2": 2,
+"3": 2,
+"4": 2,
+"5": 2,
+"6": 2
+}
+},
+{
+"text": "and one - again and is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "and to good is ok -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "good all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "3 number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "ok three shaky and 1 3 wrong 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 1
+}
+},
+{
+"text": "good shaky is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "number ok wrong - all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "one 2 two shaky shaky -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 2
+}
+},
+{
+"text": "4 rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "ok right all 1 hard , again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2
+}
+},
+{
+"text": "5 5 one right 1 easy hard and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4
+}
+},
+{
+"text": "rest easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4,
+"5": 4,
+"6": 4
+}
+},
+{
+"text": "3 number 2 right all wrong 1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1,
+"1": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "- q all is 5 ok q ok",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 3
+}
+},
+{
+"text": "ok to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and 6 and two and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "rest 2 all right all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "wrong to 6 rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "hard three and all 4 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": ", shaky easy ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "again easy good 3 all 2 two again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1
+}
+},
+{
+"text": "all easy again rest -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4,
+"5": 4,
+"6": 4
+}
+},
+{
+"text": "hard two 4 right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 3
+}
+},
+{
+"text": "- and ok ok q good easy ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "rest again two one wrong again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "and again - is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "good one 1 q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "right - to hard rest again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "5 3 hard 1 easy shaky three q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 2,
+"1": 4
+}
+},
+{
+"text": "wrong , 5 hard , right three number and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 2
+}
+},
+{
+"text": "to q to 1 again to is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1
+}
+},
+{
+"text": "1 1 good ok shaky two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3
+}
+},
+{
+"text": "three is three rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "1",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "1 easy hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4
+}
+},
+{
+"text": "6 two 2 ok right wrong good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": ", shaky three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "6 -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "is 4 right wrong two to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 3
+}
+},
+{
+"text": "4 right hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 3
+}
+},
+{
+"text": "three 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "to wrong again 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "again - , three hard number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 2
+}
+},
+{
+"text": ", shaky all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "- rest 3 right 6 rest again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3,
+"1": 1,
+"2": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "4 right three two easy wrong all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 3,
+"2": 4
+}
+},
+{
+"text": "again 5 ok q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 3
+}
+},
+{
+"text": "q",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "easy three - 2 5 ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": ", 1 to 6 all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three q two 2 4 2 right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "2 all 2 ok - ok 2 right",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 3
+}
+},
+{
+"text": "three easy hard wrong two 1 two hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 4,
+"2": 2
+}
+},
+{
+"text": "4 4 q again again , wrong hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 1
+}
+},
+{
+"text": "ok is 4 hard again ok",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 2
+}
+},
+{
+"text": "three , shaky wrong good hard - is number",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "rest wrong",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "to shaky shaky right q shaky is all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "two -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "right one - and 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and 4 3",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "6 and - 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "one two again rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1
+}
+},
+{
+"text": "three right ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3
+}
+},
+{
+"text": "q one three right shaky",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"3": 3
+}
+},
+{
+"text": "easy ok 4 again ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 1
+}
+},
+{
+"text": "2 5 4 6 number easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"6": 4
+}
+},
+{
+"text": "5 , three is shaky",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 2,
+"3": 2
+}
+},
+{
+"text": "and three two 6 wrong two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"6": 1
+}
+},
+{
+"text": "ok hard 2 all right -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "to",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "and to , 6 q one is good is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3
+}
+},
+{
+"text": "all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "to - ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "1 4 two again wrong 3 all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"2": 1
+}
+},
+{
+"text": "good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "to easy 4 two 5 all",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "6 to 6 wrong rest two -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"6": 1
+}
+},
+{
+"text": "right wrong good shaky all number wrong 2",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "hard ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q shaky and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "shaky and good again , 5 two",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "- 4 is 3 all right good again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "5",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "three",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "all right again",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 3,
+"2": 3,
+"3": 3,
+"4": 3,
+"5": 3,
+"6": 3
+}
+},
+{
+"text": "good -",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q rest wrong 1 rest 4 - , 4",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 1,
+"2": 1,
+"3": 1,
+"4": 1,
+"5": 1,
+"6": 1
+}
+},
+{
+"text": "- right 4 to hard to ,",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "number 5 good three 1 is 2 hard",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"5": 3,
+"2": 2
+}
+},
+{
+"text": "right all easy and all , again easy",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 4,
+"2": 4,
+"3": 4,
+"4": 4,
+"5": 4,
+"6": 4
+}
+},
+{
+"text": "is number and number again and",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+},
+{
+"text": "q 1 q shaky 4 and to , rest",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"1": 2
+}
+},
+{
+"text": "4 good",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {
+"4": 3
+}
+},
+{
+"text": "and all is",
+"numbers": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"out": {}
+}
+]

@@ -1,0 +1,1 @@
+{"timezone": "Europe/London", "assignee": "your-github-name", "desired_retention": 0.9, "maximum_interval_days": 365, "new_per_day": 6, "max_per_day": 15, "exams": {"bio": "2027-01-20"}, "deck_names": {"memory": "How memory works", "bio": "Biology", "geo": "Geography"}}

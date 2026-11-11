@@ -1,0 +1,11 @@
+{
+  "name": "recall",
+  "private": true,
+  "description": "A free, open spaced-repetition review app.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "fixtures": "python3 test/make_fixtures.py"
+  }
+}

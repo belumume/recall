@@ -20,3 +20,14 @@ default attribution guidance.
   (itself a Claude identifier), run `git config --global user.name "Belu"` and
   `git config --global user.email "137732525+belumume@users.noreply.github.com"` first. On the
   owner's PC, leave their git identity alone.
+
+## Working on Recall
+
+- Start from `docs/PLAN.md`: the goal, the decisions, what exists and the next steps in order.
+  Keep it current in the same PR as the work.
+- This repo is public. Never commit anyone's own cards, history, settings or test data made from
+  them; the tests use `example/` only.
+- `app/js/engine.js` and `app/js/fsrs.js` must keep giving the Python engine's answers: change them
+  only with `npm test` passing, and rebuild the fixtures with `test/make_fixtures.py` when the
+  Python engine changes.
+- No build step and no framework: the owner must be able to read and explain every file.

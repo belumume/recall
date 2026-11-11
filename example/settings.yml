@@ -1,0 +1,19 @@
+# Example settings. Copy this file and cards.yml into a private repo of your own.
+
+timezone: Europe/London       # required: your local day decides what "due today" means
+assignee: your-github-name    # who the daily issue is assigned to
+desired_retention: 0.9        # aim: a 90% chance of remembering a card when it comes back
+maximum_interval_days: 365
+new_per_day: 6                # new cards a day
+max_per_day: 15               # never more than this many cards in one day
+
+# Optional: a deck's exam date. Before it, no gap is longer than three weeks,
+# and every card comes back once in the week before.
+exams:
+  bio: 2027-01-20
+
+# Every deck a card may use, and the name shown for it.
+deck_names:
+  memory: How memory works
+  bio: Biology
+  geo: Geography
